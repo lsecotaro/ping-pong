@@ -59,10 +59,10 @@ npm run preview
 El endpoint se puede reemplazar sin modificar el código usando:
 
 ```bash
-VITE_API_URL=https://example.com/api/ping npm run dev
+PONG_TEST_API_URL=https://example.com/api/ping npm run dev
 ```
 
-En Render, agregá `VITE_API_URL` como variable de entorno durante el build.
+En Render, agregá `PONG_TEST_API_URL` como variable de entorno durante el build.
 
 ## Deploy en Render
 
@@ -81,7 +81,7 @@ Este proyecto debe desplegarse como **Static Site**, no como Web Service.
 4. Agregá la variable de entorno:
 
    ```text
-   VITE_API_URL=https://pong.leosecotaro.com.ar/api/ping
+   PONG_TEST_API_URL=https://pong.leosecotaro.com.ar/api/ping
    ```
 
 5. Creá el Static Site.

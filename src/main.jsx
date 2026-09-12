@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './styles.css';
 import './effects.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://pong.leosecotaro.com.ar/api/ping';
+const API_URL = import.meta.env.PONG_TEST_API_URL || 'https://pong.leosecotaro.com.ar/api/ping';
 
 function App() {
   const [status, setStatus] = useState('idle');
