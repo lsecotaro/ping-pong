@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 import './effects.css';
+import './compact.css';
 
 const API_URL = import.meta.env.PONG_TEST_API_URL || 'https://pong.leosecotaro.com.ar/api/ping';
 
